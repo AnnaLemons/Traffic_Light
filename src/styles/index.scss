@@ -1,13 +1,65 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(255,255,255);
+    background:cadetblue;
+}
 
-*/
+
+.pole-bar{
+    margin: auto;
+    height: 10rem;
+    width: 2rem;
+    background: rgb(255,255,255);
+    background: black;
+    border: 2px solid black;
+}
+
+.container{
+    border-radius: 10px;
+    padding: 1rem;
+    backdrop-filter: blur(5px);    
+    width: fit-content;
+    background: rgb(255,255,255);
+    background: black;
+    border: 2px solid black;
+
+}
+.empty {
+    height: 10rem;
+    width: 10rem;
+    background-color: rgb(56, 56, 56);
+    border-radius: 100%;
+    border: 3px solid rgb(26, 26, 26);
+    margin: 0.5rem;
+}
+
+.red{
+    height: 10rem;
+    width: 10rem;
+    background: rgb(255,154,154);
+    background: radial-gradient(circle, rgba(255,154,154,1) 0%, rgba(255,0,0,1) 94%);    border-radius: 100%;
+    margin: 0.5rem;
+}
+
+.yellow{
+    height: 10rem;
+    width: 10rem;
+    background: rgb(254,251,211);
+    background: radial-gradient(circle, rgba(254,251,211,1) 0%, rgba(255,252,0,1) 65%);
+    border-radius: 100%;
+    margin: 0.5rem;
+}
+
+.green{
+    height: 10rem;
+    width: 10rem;
+    background: rgb(211,254,211);
+    background: radial-gradient(circle, rgba(211,254,211,1) 0%, rgba(26,255,0,1) 65%);
+    border-radius: 100%;
+    margin: 0.5rem;
+}
